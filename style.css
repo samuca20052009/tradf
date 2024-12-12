@@ -1,0 +1,175 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Banner de Cookies */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: none;
+}
+
+.cookie-banner button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* Estilo do Herói (Título com Imagem de Fundo) */
+.hero {
+    background-image: url('https://www.escolaobpc.com.br/wp-content/uploads/2023/07/ESTRUTURA_Sala-de-aula-1.jpg'); /* Coloque o link da imagem desejada */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #4CAF50;
+}
+
+/* Seções */
+section {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Seção de Sobre */
+.sobre p {
+    text-align: justify;
+}
+
+/* Seção de Professores */
+.professores {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.professor {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.professor img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.professor h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.professor p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Seção de Métodos */
+.metodos {
+    text-align: center;
+}
+
+/* Seção de Simulados */
+.simulados {
+    background-color: #e9ecef;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.simulados p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Seção de Contato */
+.contato {
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
